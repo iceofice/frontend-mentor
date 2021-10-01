@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/iceofice/frontend-mentor)
+- Live Site URL: [GitHub Pages](https://iceofice.github.io/frontend-mentor/)
 
 ## My process
 
@@ -50,6 +50,6 @@ I am planning to learn more about css properties especially about responsiveness
 
 ## Author
 
-- Website - [Renaldy Prasetio (No Website)]()
+- Renaldy Prasetio
 - Frontend Mentor - [@iceofice](https://www.frontendmentor.io/profile/iceofice)
-- Instagram - [@renaldyprasetio](https://www.twitter.com/renaldyprasetio)
+- Instagram - [@renaldyprasetio](https://www.instagram.com/renaldyprasetio)
