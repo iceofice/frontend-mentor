@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.hero {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  padding: 4rem 2rem 0;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(187, 193, 212, 0.2);
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+}
+
+.img-wrapper {
+  height: 30%;
+}
+
+.card-content {
+  height: 75%;
+  padding: 2em 2em 0;
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  height: 35%;
+  justify-items: center;
+}
+
+.description h1 {
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0;
+  color: hsl(223, 47%, 23%);
+}
+
+.description p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin: 1em 1.5em;
+}
+
+.list-wrapper {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.list {
+  width: 100%;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1em;
+  display: flex;
+  border-radius: 1em;
+}
+
+.float-left {
+  width: 3rem;
+}
+
+.icon {
+  max-width: 100%;
+}
+
+.float {
+  margin-left: 1em;
+  text-align: left;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.float h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 800;
+  color: hsl(223, 47%, 23%);
+  display: block;
+}
+
+.float p {
+  margin: 0;
+  display: block;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+
+.float-right {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.float-right a {
+  color: hsl(246, 52%, 52%);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.float-right a:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.button-wrapper {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.75em;
+  box-shadow: 0 10px 10px hsla(245, 75%, 52%, 25%);
+}
+
+.btn-primary:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.btn-secondary {
+  color: hsl(224, 23%, 55%);
+  padding: 1em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-secondary:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+}
