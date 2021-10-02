@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/iceofice/frontend-mentor/tree/main/order-summary)
-- Live Site URL: [GitHub Pages](https://iceofice.github.io/frontend-mentor/order-summary)
+- Solution URL: [GitHub Repository](https://github.com/iceofice/frontend-mentor/tree/main/Order%20Summary)
+- Live Site URL: [GitHub Pages](https://iceofice.github.io/frontend-mentor/Order%20Summary)
 
 ## My process
 
