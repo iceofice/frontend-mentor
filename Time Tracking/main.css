@@ -152,7 +152,7 @@ body {
   margin: 0;
 }
 
-.card-content .previous {
+.card-content .previous-detials {
   text-align: right;
   float: right;
   position: relative;
@@ -249,7 +249,7 @@ body {
     margin: 0.5em 0 0.25em;
   }
 
-  .card-content .previous {
+  .card-content .previous-details {
     text-align: left;
     float: none;
     position: static;

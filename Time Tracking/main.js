@@ -13,23 +13,12 @@ rawFile.send(null);
 var ul = document.getElementById("timeframes");
 
 function assignData(timeframe) {
-  document.getElementById("workHours").innerHTML = data[0].timeframes[timeframe].current;
-  document.getElementById("workPrev").innerHTML = data[0].timeframes[timeframe].previous;
-
-  document.getElementById("playHours").innerHTML = data[1].timeframes[timeframe].current;
-  document.getElementById("playPrev").innerHTML = data[1].timeframes[timeframe].previous;
-
-  document.getElementById("studyHours").innerHTML = data[2].timeframes[timeframe].current;
-  document.getElementById("studyPrev").innerHTML = data[2].timeframes[timeframe].previous;
-
-  document.getElementById("exerciseHours").innerHTML = data[3].timeframes[timeframe].current;
-  document.getElementById("exercisePrev").innerHTML = data[3].timeframes[timeframe].previous;
-
-  document.getElementById("socialHours").innerHTML = data[4].timeframes[timeframe].current;
-  document.getElementById("socialPrev").innerHTML = data[4].timeframes[timeframe].previous;
-
-  document.getElementById("selfCareHours").innerHTML = data[5].timeframes[timeframe].current;
-  document.getElementById("selfCarePrev").innerHTML = data[5].timeframes[timeframe].previous;
+  var currentTimeframeElements = document.querySelectorAll(".current");
+  var previousTimeframeElements = document.querySelectorAll(".previous");
+  for (var i = 0; i < currentTimeframeElements.length; i++) {
+    currentTimeframeElements[i].innerHTML = data[i].timeframes[timeframe].current;
+    previousTimeframeElements[i].innerHTML = data[i].timeframes[timeframe].previous;
+  }
 }
 
 ul.addEventListener("click", function (element) {
