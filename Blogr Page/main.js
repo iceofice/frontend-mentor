@@ -45,8 +45,8 @@ function stickyHeader() {
   }
 }
 
-var menuTitleElements = document.querySelectorAll(".menu .menu-title");
-var submenuElements = document.querySelectorAll(".menu .submenu");
+var menuTitleElements = document.querySelectorAll("nav .menu-title");
+var submenuElements = document.querySelectorAll(".header-submenu");
 
 Array.from(menuTitleElements).map((menu, index) => {
   menu.addEventListener("click", () => {
