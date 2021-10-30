@@ -1,7 +1,17 @@
 var hamburger = document.getElementById("hamburger");
 var close = document.getElementById("close");
 var menu = document.getElementById("menu");
-menu.style.display = "none";
+
+function checkMenu() {
+  var width =
+    window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  menu.style.display = width < 992 ? "none" : "flex";
+}
+
+checkMenu();
+window.addEventListener("resize", () => {
+  checkMenu();
+});
 
 hamburger.addEventListener("click", function () {
   hamburger.style.display = "none";
@@ -25,7 +35,6 @@ var sticky = header.offsetTop;
 
 function stickyHeader() {
   if (window.pageYOffset >= sticky) {
-    console.log(sticky);
     header.style.position = "fixed";
     header.style.margin = "0 auto";
     header.style.background = "hsla(9, 100%, 71%, 90%)";
@@ -36,8 +45,8 @@ function stickyHeader() {
   }
 }
 
-var menuTitleElements = document.querySelectorAll(".mobile-menu .menu-title");
-var submenuElements = document.querySelectorAll(".mobile-menu .submenu");
+var menuTitleElements = document.querySelectorAll(".menu .menu-title");
+var submenuElements = document.querySelectorAll(".menu .submenu");
 
 Array.from(menuTitleElements).map((menu, index) => {
   menu.addEventListener("click", () => {
