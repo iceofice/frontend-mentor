@@ -253,6 +253,7 @@ nav .button-group {
 
 .section-2 img {
   margin: -11em 0 2em;
+  max-width: 100%;
 }
 
 .section-2 h2 {
